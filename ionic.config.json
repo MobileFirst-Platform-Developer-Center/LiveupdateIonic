@@ -1,0 +1,7 @@
+{
+  "name": "LiveupdateIonic",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
