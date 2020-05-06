@@ -34,6 +34,9 @@ click on the **Edit** icon of  **festivalShopping**  feature under Features sect
 #### Feature Properties
 * Click the **Edit** icon of **buttonLabel** under Properties section and change the value to update the feature properties remotely.
 
+## Version
+Ionic 5.1.0
+
 ## Supported Versions
 IBM MobileFirst Foundation 8.0
 
