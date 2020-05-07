@@ -21,7 +21,7 @@ https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/application
 ![Liveupdate Screenshot](mobilefirst/liveupdate-schema.png)
 
 3. Run the application in an Android Emulator, iOS Simulator, Browser or physical device with the following command.
-    - `ionic cordova run` - to run the application. 
+    - `ionic cordova run <platformName(android/ios)>` - to run the application. 
 
 
 ### Changing Live Update Settings
