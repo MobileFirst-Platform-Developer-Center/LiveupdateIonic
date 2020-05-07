@@ -12,7 +12,7 @@ https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/application
 ### Usage
 
 1. From a command-line window, navigate to the project's root folder and run the following commands:
-    - `ionic cordova platform add <platformName(android/ios)>` - to add a platform.
+    - `ionic cordova platform add ios` or `ionic cordova platform add android`- to add a platform.
     - `mfpdev app register` - to register the application.
     - `mfpdev app push` - to add the `liveupdate.mobileclient` scope in scope elements mappings section of security.
    
@@ -21,7 +21,7 @@ https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/application
 ![Liveupdate Screenshot](mobilefirst/liveupdate-schema.png)
 
 3. Run the application in an Android Emulator, iOS Simulator, Browser or physical device with the following command.
-    - `ionic cordova run <platformName(android/ios)>` - to run the application. 
+    - `ionic cordova run ios` or `ionic cordova run android` - to run the application. 
 
 
 ### Changing Live Update Settings
