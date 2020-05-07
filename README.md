@@ -12,7 +12,7 @@ https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/application
 ### Usage
 
 1. From a command-line window, navigate to the project's root folder and run the following commands:
-    - `ionic cordova platform add` - to add a platform.
+    - `ionic cordova platform add <platformName(android/ios)>` - to add a platform.
     - `mfpdev app register` - to register the application.
     - `mfpdev app push` - to add the `liveupdate.mobileclient` scope in scope elements mappings section of security.
    
