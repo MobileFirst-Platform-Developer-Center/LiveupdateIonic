@@ -31,6 +31,7 @@ export class HomePage {
       this.cd.detectChanges();
     }, (failure) => {
       console.log("Failed to retreive Liveupdate Configuration" + JSON.stringify(failure))
+      alert("Failed to retreive Liveupdate Configuration. Reason :" + JSON.stringify(failure))
       this.featureScreen = false
       this.cd.detectChanges();
     })
